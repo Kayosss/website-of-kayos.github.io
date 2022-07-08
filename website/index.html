@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website of Kayos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&family=Staatliches&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <button class="burger-button" id="btn" type="button">
+                <i class="material-icons" onclick="showMenu()">menu</i>
+           </button>
+           
+            <div class="nav-links" id="navLinks">
+                <button class="close-icon">
+                    <i class="material-symbols-outlined" onclick="hideMenu()">close</i>
+                </button>
+              
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">PROJECTS</a></li>
+                    <li><a href="instagram.html">kayos_editz</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"></i>
+        </nav>
+    <div class="text-box">
+        <h1>Website of Kayos<span class="auto-typed"></h1>
+        <p><span class="des-typed"></span>
+        </p>
+    </div>
+    <div class="icon">
+        <a id="arrow" href="#favourite">v</a>
+    </div>
+
+    </section>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+    var desTyped = new Typed(".des-typed", {
+        strings: ["Welcome to my website, I am a student in computing and here is where I will post and share my projects"],
+        typeSpeed: 50,
+        onComplete: (self)=>{showCursor: false}})
+    
+</script>
+<!--favourite projects-->
+<section class = "favourite" id="favourite">
+    <h1>Favourite projects</h1>
+
+    <div class="row">
+        <a class="project-anchor"  href="https://github.com/Zachary6767/Ace-in-the-hole" target = "_blank">
+        <div class ="project-box">
+            <h3>Instagram bot</h3>
+            <p>A bot on instagram that is able to like, follow and comment on any post (finds posts through hastags).</p>
+        </div>
+        </a>
+        <a class="project-anchor"  href="https://github.com/Zachary6767/Ace-in-the-hole" target="_blank">
+        <div class = "project-box">
+            <h3>Blackjack card counter</h3>
+            <p>A card counter for blackjack. Works for 4, 6 or 8 deck games and calculates different count metrics as well as card percentages</p>
+        </div>
+        </a>
+    </div>
+</section>
+<footer class="links" id="links" >
+    <a href="https://www.instagram.com/kayos_editz" target="_blank">Instagram: @kayos_editz</a>
+    <br>
+    <a href="https://www.github.com/Zachary6767" target="_blank">Github: @Kayos</a>
+</footer>
+
+<!---javascript menu for phone view-->
+
+<script>
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
