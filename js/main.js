@@ -1,6 +1,6 @@
 
 let i = 0;
-const videos = ["/videos/rocky edit v2.mp4","/videos/Lovesick edit.mp4", "/videos/billie eyelash edit.mp4"];
+const videos = ["videos/rocky edit v2.mp4","videos/Lovesick edit.mp4", "videos/billie eyelash edit.mp4"];
 function playVideo(direction){
     var videoElement = document.getElementById("video1");
     if(direction === "left"){
