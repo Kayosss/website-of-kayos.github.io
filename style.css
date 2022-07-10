@@ -167,6 +167,9 @@ footer{
     font-family: 'Source Code Pro', monospace;
 
 }
+.to-fade-in{
+    visibility: hidden;
+}
 
 /*instagram page*/
 .main-text{
@@ -363,5 +366,9 @@ footer{
     }
     .background{
         background-image: linear-gradient(rgba(8,8,8),rgba(8,8,8));
+    }
+    .material-symbols-outlined.md-2{
+        position: relative;
+        bottom: 100px;
     }
 }

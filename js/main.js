@@ -1,4 +1,3 @@
-
 let i = 0;
 const videos = ["videos/rocky edit v2.mp4","videos/Lovesick edit.mp4", "videos/billie eyelash edit.mp4"];
 function playVideo(direction){
@@ -37,3 +36,16 @@ function showMenu(){
 function hideMenu(){
     navLinks.style.right = "-200px";
 }
+
+$(window).scroll(function () {
+    var topDivHeight = $(".header").height();
+    var viewPortSize = $(window).height();
+    
+    var triggerAt = 150;
+    var triggerHeight = (topDivHeight - viewPortSize) + triggerAt;
+
+    if ($(window).scrollTop() >= triggerHeight) {
+        $('.to-fade-in').css('visibility', 'visible').hide().fadeIn(1500);
+        $(this).off('scroll');
+    }
+});
