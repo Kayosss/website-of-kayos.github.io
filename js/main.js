@@ -46,6 +46,7 @@ $(window).scroll(function () {
 
     if ($(window).scrollTop() >= triggerHeight) {
         $('.to-fade-in').css('visibility', 'visible').hide().fadeIn(1500);
+        $('.to-fade-in').css('transform', 'translate(0,0)');
         $(this).off('scroll');
     }
 });

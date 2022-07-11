@@ -114,7 +114,7 @@ nav img{
 }
 .project-anchor{
     flex-basis: 45%;
-    background: #fff3f3;
+    background: white;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -129,7 +129,7 @@ nav img{
     margin: 10px 0;
 }
 .project-anchor:hover{
-    box-shadow: 0 0 20px 0px #fff3f3;
+    box-shadow: 0 0 20px 0px white;
 }
 .button{
     padding: 500px;
@@ -169,6 +169,8 @@ footer{
 }
 .to-fade-in{
     visibility: hidden;
+    transform: translate(0, 10vh);
+    transition: 1s;
 }
 
 /*instagram page*/
@@ -280,6 +282,15 @@ footer{
     font-size: 30px;
 }
 
+/* Projects page */
+
+.title h1{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 2.5%;
+    left: 2.5%;
+}
 
 
 
