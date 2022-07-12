@@ -45,6 +45,7 @@ $(window).scroll(function () {
     var triggerHeight = (topDivHeight - viewPortSize) + triggerAt;
 
     if ($(window).scrollTop() >= triggerHeight) {
+        $('.background-fade').css('visibility', 'visible').hide().fadeIn(1500)
         $('.to-fade-in').css('visibility', 'visible').hide().fadeIn(1500);
         $('.to-fade-in').css('transform', 'translate(0,0)');
         $(this).off('scroll');

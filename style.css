@@ -172,6 +172,9 @@ footer{
     transform: translate(0, 10vh);
     transition: 1s;
 }
+.background-fade{
+    visibility: hidden;
+}
 
 /*instagram page*/
 .main-text{
@@ -286,10 +289,18 @@ footer{
 
 .title h1{
     font-size: 30px;
-    color: white;
-    position: absolute;
     top: 2.5%;
     left: 2.5%;
+    position:fixed;
+}
+.title{
+    color: white;
+}
+.title p{
+    top: 5%;
+    left: 5%;
+    position: absolute;
+
 }
 
 
