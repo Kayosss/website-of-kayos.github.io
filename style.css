@@ -90,6 +90,19 @@ nav img{
     font-style: normal;
     color: aliceblue;
 }
+.fade{
+    animation-name: fadeIn;
+    animation-duration: 3s;
+}
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+        transform: translate(0,-10vh);
+    }
+    100%{
+        opacity: 1;
+    }
+}
 
 /* favourite project section*/
 
@@ -101,7 +114,6 @@ nav img{
     background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url(images/GitHub.jpg);
     overflow: hidden;
     font-family: 'Source Code Pro', monospace;
-
 }
 .favourite h1{
     color: white;
@@ -392,5 +404,15 @@ footer{
     .material-symbols-outlined.md-2{
         position: relative;
         bottom: 100px;
+    }
+    .des-typed, .typed-cursor{
+        font-size: 17px;
+    }
+    .favourite h1{
+        font-size: 20px;
+    }
+    .project-anchor , .favourite h1{
+        position: relative;
+        bottom: 70px;
     }
 }
