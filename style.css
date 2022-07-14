@@ -301,12 +301,13 @@ footer{
 
 /* Projects page */
 
-.title h2{
+.title h2 a{
     top: 4%;
     left: 2.5%;
+    text-decoration: none;
+    color: #fe4c40;
 }
 .title{
-    color: white;
     position: absolute;
     top: 2%;
     padding-left: 1%;
@@ -316,7 +317,31 @@ footer{
     left: 5%;
 }
 
-
+.neon{
+    color: #fe4c40;
+    font-weight: 400;
+    letter-spacing: 8px;
+    text-shadow: 1px 0px 4px #fe4c40, 2px 0px 4px #fe4c40, 3px 0px 4px #fe4c40, 2px 0px 3px #fe4c40, 2px 3px 15px #D42CCA, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #D42CCA,40px 0vw 200px #D42CCA;
+  }
+  
+  .flicker-slow{
+    animation: flicker 3s linear infinite;
+  }
+  
+  .flicker-fast{
+    animation: flicker 1s linear infinite;
+  }
+  
+  @keyframes flicker {
+      0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+          /* text-shadow: none; */
+      opacity: .99;
+          
+      }
+      20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
+          opacity: 0.4;
+      }
+  }
 
 
 
@@ -415,5 +440,8 @@ footer{
     .project-anchor , .favourite h1{
         position: relative;
         bottom: 70px;
+    }
+    .title{
+        font-size: 10px;
     }
 }
