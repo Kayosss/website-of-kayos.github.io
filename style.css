@@ -20,7 +20,8 @@ html{
 }
 nav{
     display: flex;
-    padding: 2% 6%;
+    padding-top: 1%;
+    padding-right: 2%;
     justify-content: space-between;
     align-items: center;
     font-family: 'Source Code Pro', monospace;
@@ -32,6 +33,7 @@ nav img{
 .nav-links{
     flex: 1;
     text-align: right;
+    height: 0;
 }
 .nav-links ul li{
     list-style: none;
@@ -299,20 +301,19 @@ footer{
 
 /* Projects page */
 
-.title h1{
-    font-size: 30px;
-    top: 2.5%;
+.title h2{
+    top: 4%;
     left: 2.5%;
-    position:fixed;
 }
 .title{
     color: white;
+    position: absolute;
+    top: 2%;
+    padding-left: 1%;
 }
 .title p{
     top: 5%;
     left: 5%;
-    position: absolute;
-
 }
 
 
