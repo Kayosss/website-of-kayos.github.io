@@ -307,6 +307,11 @@ footer{
     text-decoration: none;
     color: #fe4c40;
 }
+.title h3{
+    color: white;
+    padding-top: 10%;
+    font-size: 1.5rem;
+}
 .title{
     position: absolute;
     top: 2%;
@@ -319,6 +324,7 @@ footer{
 
 .neon{
     color: #fe4c40;
+    font-size: 30px;
     font-weight: 400;
     letter-spacing: 8px;
     text-shadow: 1px 0px 4px #fe4c40, 2px 0px 4px #fe4c40, 3px 0px 4px #fe4c40, 2px 0px 3px #fe4c40, 2px 3px 15px #D42CCA, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #D42CCA,40px 0vw 200px #D42CCA;
@@ -341,6 +347,10 @@ footer{
       20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
           opacity: 0.4;
       }
+  }
+  .project-list{
+    margin: 1.5rem;
+    color: white;
   }
 
 
