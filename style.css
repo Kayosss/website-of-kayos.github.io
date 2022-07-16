@@ -451,7 +451,7 @@ footer{
         position: relative;
         bottom: 70px;
     }
-    .title{
-        font-size: 10px;
+    .title h2 a{
+        font-size: 1rem;
     }
 }
