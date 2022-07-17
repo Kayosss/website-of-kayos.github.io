@@ -309,8 +309,8 @@ footer{
 }
 .title h3{
     color: white;
-    padding-top: 10%;
-    font-size: 1.5rem;
+    padding-top: 5%;
+    font-size: 2rem;
 }
 .title{
     position: absolute;
@@ -351,6 +351,11 @@ footer{
   .project-list{
     margin: 1.5rem;
     color: white;
+    line-height: 1.5;
+  }
+  .project-list p a{
+    text-decoration: none;
+    color: #fe4c40;
   }
 
 
@@ -389,6 +394,7 @@ footer{
         color: white;
         background-color: rgba(8, 8, 8,0);
         border: none;
+        z-index: 1;
     }
     .close-icon{
         display: block;
@@ -452,6 +458,9 @@ footer{
         bottom: 70px;
     }
     .title h2 a{
-        font-size: 1rem;
+        font-size: 15px;
+    }
+    .project-list{
+        font-size: 10px;
     }
 }
