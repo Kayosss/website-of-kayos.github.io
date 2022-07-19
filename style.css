@@ -357,6 +357,15 @@ footer{
     text-decoration: none;
     color: #fe4c40;
   }
+  .project-list li a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+  }
+  .project-list li a:hover{
+    color: #fe4c40;
+  }
 
 
 
