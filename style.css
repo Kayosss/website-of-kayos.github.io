@@ -104,6 +104,21 @@ nav img{
         opacity: 1;
     }
 }
+.fade-n{
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+@keyframes fade {
+    0%{
+        opacity: 0;
+        transform: translate(0,-2vh);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
 
 /* favourite project section*/
 
@@ -473,5 +488,11 @@ footer{
     }
     .header-project{
         min-height: 150vh;
+    }
+    .title h3{
+        font-size: 1.5rem;
+    }
+    .project-list li a{
+        font-size: 15px;
     }
 }

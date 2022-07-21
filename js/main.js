@@ -1,17 +1,13 @@
 let i = 0;
-const videos = ["videos/rocky edit v2.mp4","videos/Lovesick edit.mp4", "videos/billie eyelash edit.mp4"];
+const videos = ["videos/rocky edit v2.mp4","videos/Lovesick edit.mp4", "videos/billie eyelash edit.mp4","videos/chill.mp4"];
 function playVideo(direction){
     var videoElement = document.getElementById("video1");
     if(direction === "left"){
         i--;
-        if(i < 0){
-            i = videos.length-1;
-        }
+        i = i < 0 ? 3 : i;
     }else if(direction === "right"){
         i++;
-        if(i >= videos.length){
-            i = 0;
-        }
+        i = i%4;  
     }
     videoElement.src = videos[i];
     videoElement.play();
@@ -51,3 +47,4 @@ $(window).scroll(function () {
         $(this).off('scroll');
     }
 });
+
