@@ -1,6 +1,7 @@
 {
     "rewrites": [
         {"source" : "/instagram", "destination" : "/instagram.html"},
-        {"source" : "/projects", "destination": "/projects.html"}
+        {"source" : "/projects", "destination": "/projects.html"},
+        {"source": "/wealthwatch", "destination": ""}
     ]
 }
