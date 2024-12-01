@@ -220,11 +220,17 @@ footer{
 .main-text h1 a:hover{
     color:rgb(255, 255, 255);
 }
-.video{
-    position: relative;
-    height:300px;
-    width:100%;
-    overflow: hidden;
+.video1 {
+    height: 600px;
+    width: 400px;
+}
+.video2 {
+    height: 600px;
+    width: 400px;
+}
+.instagram-box {
+    display: flex;
+    flex-direction: row; 
 }
 .back-video{
     position: absolute;
@@ -243,8 +249,6 @@ footer{
     width: 100%;
     background-position: center;
     position: relative;
-    height:300px;
-    width:100%;
 }
 .description{
     color: white;
