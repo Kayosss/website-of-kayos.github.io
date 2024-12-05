@@ -494,4 +494,8 @@ footer{
     .project-list li a{
         font-size: 15px;
     }
+    .instagram-box {
+    display: flex;
+    flex-direction: column; 
+}
 }
