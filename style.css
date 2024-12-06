@@ -212,14 +212,14 @@ footer{
     text-align: center;
     font-family: 'Quicksand', sans-serif;
 }
-.main-text h5 a{
+.main-text h1 a{
     transition: 0.5s;
     text-decoration: none;
-    color: rgba(255,255,255,0.3);
+    color: white; 
 
 }
 .main-text h1 a:hover{
-    color:rgb(255, 255, 255);
+    color: red;
 }
 /* .video1 {
     height: 600px;
