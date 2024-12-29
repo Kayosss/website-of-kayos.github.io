@@ -87,6 +87,9 @@ nav img{
     display: none;
 }
 
+.video{
+    padding-left: 4%;
+}
 
 .typed-cursor{
     font-style: normal;
