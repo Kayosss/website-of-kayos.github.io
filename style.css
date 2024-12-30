@@ -4,6 +4,7 @@
 }
 html{
     scroll-behavior: smooth;
+    background-color: rgb(8, 8, 8); 
 }
 .header {
     min-height: 100vh;
@@ -86,6 +87,9 @@ nav img{
     display: none;
 }
 
+.video{
+    padding-left: 4%;
+}
 
 .typed-cursor{
     font-style: normal;
@@ -190,7 +194,7 @@ nav img{
 }
 footer{
     background-color: rgb(8,8,8);
-    padding: 10px 0 10px 0;
+    padding: 6.5% 0 1% 0;
     text-align: center;
     font-family: 'Source Code Pro', monospace;
 
@@ -208,28 +212,29 @@ footer{
 .main-text{
     width: 100%;
     color: rgba(255,255,255,0.3);
-    position: absolute;
-    left: 50%;
-    top: 40%;
-    transform: translate(-50%,-50%);
     text-align: center;
     font-family: 'Quicksand', sans-serif;
 }
 .main-text h1 a{
-    font-size: 102px;
     transition: 0.5s;
     text-decoration: none;
-    color: rgba(255,255,255,0.3);
+    color: white; 
 
 }
 .main-text h1 a:hover{
-    color:rgb(255, 255, 255);
+    color: red;
 }
-.video{
-    position: relative;
-    height:300px;
-    width:100%;
-    overflow: hidden;
+/* .video1 {
+    height: 600px;
+    width: 400px;
+}
+.video2 {
+    height: 600px;
+    width: 400px;
+} */
+.instagram-box {
+    display: flex;
+    flex-direction: row; 
 }
 .back-video{
     position: absolute;
@@ -242,14 +247,12 @@ footer{
     width: auto;
 }
 .background{
-    background-image: linear-gradient(rgba(4,9,30,0.3),rgba(4,9,30,0.3));
-    min-height: 100vh;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)); */
+    background-color:  rgb(8,8,8);
     width: 100%;
+    padding-bottom: 5%;
     background-position: center;
     position: relative;
-    height:300px;
-    width:100%;
-    overflow: hidden;
 }
 .description{
     color: white;
@@ -260,10 +263,9 @@ footer{
 
 }
 .description p{
-    position: absolute;
     bottom: 1%;
     left: 25%;
-
+    background-color:  rgb(8,8,8);
 }
 .description a{
     text-decoration: none;
@@ -449,7 +451,6 @@ footer{
     }
     .description p {
         font-size: 10px;
-        position: absolute;
         left: 0%;
     }
     footer{
@@ -495,4 +496,9 @@ footer{
     .project-list li a{
         font-size: 15px;
     }
+    .instagram-box {
+    display: flex;
+    flex-direction: column; 
+    margin: 5%;
+}
 }
