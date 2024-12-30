@@ -2,6 +2,6 @@
     "rewrites": [
         {"source" : "/instagram", "destination" : "/instagram.html"},
         {"source" : "/projects", "destination": "/projects.html"},
-        {"source": "/wealthwatch", "destination": ""}
+        {"source": "/wealthwatch", "destination": "https://wealth-watch-git-vercel-kayos-projects-5012afd5.vercel.app/"}
     ]
 }
